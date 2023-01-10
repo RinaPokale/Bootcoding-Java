@@ -1,6 +1,6 @@
 package com.bootcoding.java.patterns;
 
-public class trainglePattern {
+public class TrainglePatternStar {
     public static void main(String[] args) {
         int n = 4;
 
