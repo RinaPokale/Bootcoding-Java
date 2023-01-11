@@ -6,6 +6,8 @@ public class ProductOfNum {
     }
 
     public static void main(String[] args) {
-        System.out.println(productOfTwoNum(12, 34));
+        int n1 = 12;
+        int n2 = 34;
+        System.out.println(n1 + " * " + n2 + " = " +productOfTwoNum(12, 34));
     }
 }
