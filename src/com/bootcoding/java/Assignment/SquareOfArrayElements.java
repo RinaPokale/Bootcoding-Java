@@ -1,5 +1,7 @@
 package com.bootcoding.java.Assignment;
 
+//Wap to return Square of array elements using method
+
 public class SquareOfArrayElements {
     public int[] squareOfArrayElements(int[] nums){
         int[] SquareOfNum = new int[nums.length];
@@ -8,6 +10,7 @@ public class SquareOfArrayElements {
         }
         return SquareOfNum;
     }
+
     public static void main(String[] args) {
         SquareOfArrayElements sq = new SquareOfArrayElements();
 
