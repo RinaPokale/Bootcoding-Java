@@ -11,7 +11,10 @@ public class SumOfSeries {
         for(int i = 1; i <= n; i++){
             series = (series * 10) + 1;
             sum += series;
-            System.out.print(series + " + ");
+            System.out.print(series);
+
+            if(i != n)
+                System.out.print(" + ");
         }
 
         return sum;
