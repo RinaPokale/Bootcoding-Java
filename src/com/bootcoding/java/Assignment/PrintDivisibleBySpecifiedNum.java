@@ -1,5 +1,8 @@
 package com.bootcoding.java.Assignment;
 
+/* WAP to display all numbers from 1 to 100, whose remainder will be 3
+    after divided by specified number */
+
 public class PrintDivisibleBySpecifiedNum {
         public static void printNumDivBySpecifiedNum(int n){
             for(int i = 1; i <= 100; i++){
